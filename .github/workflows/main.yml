@@ -46,7 +46,7 @@ jobs:
             vid: ${{ secrets.VID }}
             vkey: ${{ secrets.VKEY }}
             file: "verademo.war" 
-            request_policy: "VeraDemo Policy"
+            request_policy: "Veracode Recommended Medium"
             esd: true
             debug: 1
             fail_build: false
